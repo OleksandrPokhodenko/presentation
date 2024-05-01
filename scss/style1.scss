@@ -1,0 +1,24 @@
+//Обнуляющий стиль
+@import "nullstyle.scss";
+
+body {
+	padding: 5px;
+	background-color: #78d9ed;
+}
+
+.photo {
+	position: relative;
+	margin-bottom: 30px;
+	max-width: 420px;
+	height: 500px;
+
+
+	&__img {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		object-fit: cover;
+	}
+}

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*Обнуление*/
 * {
   padding: 0;
@@ -109,8 +108,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .button {
@@ -133,21 +132,4 @@ body {
 a {
   display: block;
   margin-bottom: 30px;
-}
-
-.img__container {
-  position: relative;
-  width: 420px;
-  height: 500px;
-  margin-bottom: 30px;
-}
-
-.img__container-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
