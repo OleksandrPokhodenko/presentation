@@ -124,6 +124,7 @@ body {
   border: 1px solid #000;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  color: #060606;
 }
 
 .button:hover {
@@ -133,4 +134,5 @@ body {
 a {
   display: block;
   margin-bottom: 30px;
+  color: #060606;
 }
