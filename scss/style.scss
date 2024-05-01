@@ -3,7 +3,7 @@
 
 body {
 	padding: 30px 5px;
-	background-color: #78d9ed;
+	background-color: #4037f8;
 	text-align: center;
 }
 
@@ -13,6 +13,7 @@ body {
 	font-family: serif;
 	font-weight: 700;
 	margin-bottom: 30px;
+	color: #060606;
 }
 
 .container {
@@ -27,13 +28,13 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	font-style: italic;
-	background-color: #f2f680;
+	background-color: gray;
 	border: 1px solid #000;
 	transition: all 0.3s ease 0s;
 }
 
 .button:hover {
-	background-color: #f6e41e;
+	background-color: #616363;
 }
 
 a {

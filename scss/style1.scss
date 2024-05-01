@@ -3,22 +3,39 @@
 
 body {
 	padding: 5px;
-	background-color: #78d9ed;
+	background-color: #4037f8;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	justify-content: end;
+	position: absolute;
+	bottom: 12px;
+	color: #fff;
+	font-size: 20px;
 }
 
 .photo {
 	position: relative;
 	margin-bottom: 30px;
 	max-width: 420px;
-	height: 500px;
-
+	height: 550px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
 
 	&__img {
 		position: absolute;
-		height: 100%;
+		height: 500px;
 		width: 100%;
 		left: 0;
 		top: 0;
 		object-fit: cover;
+		border-radius: 10px 10px 0 0;
 	}
 }
